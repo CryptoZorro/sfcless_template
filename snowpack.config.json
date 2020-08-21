@@ -1,0 +1,41 @@
+{
+  "extends": "",
+  "exclude": [
+    "**/node_modules/**/*', '**/__tests__/*', '**/*.@(spec|test).@(js|mjs)"
+  ],
+  "install": [],
+  "mount": {},
+  "alias": {},
+  "proxy": {},
+  "plugins": [],
+  "installOptions": {
+    "dest": "web_modules",
+    "sourceMap": false,
+    "env": {
+      "BASE_URL": "/",
+      "NODE_ENV": "production"
+    },
+    "treeshake": false,
+    "installTypes": false,
+    "namedExports": [],
+    "rollup": {}
+  },
+  "devOptions": {
+    "port": 8080,
+    "out": "build",
+    "bundle": false,
+    "fallback": "index.html",
+    "open": "default",
+    "hostname": "localhost",
+    "hmr": true,
+    "secure": false
+  },
+  "buildOptions": {
+    "baseUrl": "/",
+    "clean": false,
+    "metaDir": "__snowpack__",
+    "minify": false,
+    "sourceMaps": true,
+    "webModulesUrl": "web_modules"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "axios/dist/axios.js": "./axios/dist/axios.js",
+    "vue-router/dist/vue-router.esm.browser.js": "./vue-router/dist/vue-router.esm.browser.js",
+    "vue/dist/vue.esm.browser.js": "./vue/dist/vue.esm.browser.js",
+    "vuex/dist/vuex.esm.browser.js": "./vuex/dist/vuex.esm.browser.js"
+  }
+}

@@ -1,24 +1,37 @@
-# mytest2
+# mytarget
 
 ## Project setup
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles (compile only, no bundle & minify) and hot-reloads for development using Snowpack
+
 ```
-npm run serve
+npm run start
 ```
 
-### Compiles and minifies for production
+### Build (compile only, no bundle & minify) using Snowpack
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Build & Watch (compile only, no bundle & minify) using Snowpack
+
 ```
-npm run lint
+npm run watch
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compiles (plus bundle & minify) and hot-reloads for development using Vue-Cli
+
+```
+npm run vserve
+```
+
+### Build (compile, bundle & minify) for production with Vue-Cli
+
+```
+npm run vbuild
+```

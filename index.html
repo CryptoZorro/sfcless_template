@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app">{{message}}</div>
+    <!-- built files will be auto injected -->
+
+    <!-- <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.esm.browser.js"
+    ></script>-->
+    <!-- <script type="importmap">
+      {
+        "imports": {
+          "vue": "https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.0-beta.14/vue.esm-browser.js",
+          "vue-router": "https://cdnjs.cloudflare.com/ajax/libs/vue-router/4.0.0-alpha.12/vue-router.esm.js",
+          "vuex": "https://cdnjs.cloudflare.com/ajax/libs/vuex/4.0.0-beta.2/vuex.esm-browser.js",
+          "axios": "https://unpkg.com/axios/dist/axios.min.js"
+        }
+      }
+    </script> -->
+    <!-- <script type="module" src="vue.mjs"></script>
+    <script src="axios.js"></script> -->
+
+    <!-- <script type="module">
+      // import { axios } from "axios";
+
+      import axios from "./bower_components/axios/axios.js";
+      console.log(axios);
+    </script> -->
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
