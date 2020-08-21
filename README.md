@@ -1,4 +1,4 @@
-# mytest2
+# mytarget
 
 ## Project setup
 ```
